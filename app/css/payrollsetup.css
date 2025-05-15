@@ -1,0 +1,82 @@
+#payroll-setup-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section {
+  color: white;
+  margin-top: 10px;
+  width: 800px;
+  border-bottom: 4px solid #23272a;
+  padding-bottom: 15px;
+}
+
+.section h3 {
+  margin-bottom: 8px;
+}
+
+.add-btn {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #1e212497;
+  border: none;
+  color: white;
+  transition: background-color 0.1s ease;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.add-btn:hover{
+  background-color: #1e2124;
+}
+
+.setup-input {
+  width: 100%;
+  height: 32px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #23272a;
+  color: white;
+  border: none;
+}
+.select-input{
+  width: 100%;
+  height: 42px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #23272a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.setup-input:focus, .select-input:focus {
+  outline: none;
+}
+
+.entry-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 8px;
+}
+.btn-calculate{
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #019ad6;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  transition: background-color 0.1s ease;
+}
+.btn-calculate i {
+  color: #23272a;
+}
+
+.btn-calculate:hover{
+  background-color: #16c2e0;
+}

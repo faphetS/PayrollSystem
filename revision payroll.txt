@@ -1,0 +1,27 @@
+Revision:
+
+	Add another Side Button for Separation of the Holiday, Supervisor, and Overtime
+	Remove the calculate" button on the first and put it in the new side button,
+
+	After clicking the new side button
+
+	+ Add holiday, (name) (date) (paid/not paid) if paid; then add paid (kasi minsan 30% lang tas minsan double pay)
+
+	+ In Supervisor (Id no.) ++ then dun sa calculate mag add ka ng another for the per day ng supervisor (kunwari dalawang id no ang lilitaw is:)
+
+	IT
+	[ salary ]
+
+	google app 
+	[ salary ]
+
+	google app gabi
+	[ salary ]
+
+	20065
+	[ salary ]
+
+	Sir Kaniel id no.
+	[ salary ] 
+
+	+ for ot naman is manually din to be continued..

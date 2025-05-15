@@ -1,0 +1,153 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.form-container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    min-width: 500px;
+    height: 600px;
+    border: 3px solid;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    color: #23272a;
+}
+
+/* Left Column */
+.col-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #23272a;
+    border-radius: 0 80px 80px 0;
+    transition: border-radius .3s;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.logo-container img {
+    width: 50%;
+    max-width: 250px;
+    min-width: 150px;
+    height: auto;
+    animation: scale-up 3s ease-in-out alternate infinite;
+}
+
+.company-name {
+    text-align: center;
+    background: linear-gradient(45deg, #019ad6, #8dd1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Right Column */
+.col-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    padding: 20px;
+}
+
+/* Login Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 4vw;
+}
+
+.form-title {
+    margin: 40px 0 30px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #23272a;
+}
+
+.form-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-bottom: 2px solid #adadad;
+    outline: none;
+    backdrop-filter: blur(20px);
+    color: black;
+}
+
+::placeholder {
+    color: rgb(88, 88, 88);
+    font-size: 18px;
+}
+
+/* Submit Button */
+.btn-submit {
+    width: 80%;
+    height: 55px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background: #23272a;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #16c2e0;
+}
+
+.btn-submit:active {
+    transform: scale(0.93);
+    background: #16c2e0;
+}
+.col-left, .col-right {
+    min-width: 250px;
+}
+.error-message {
+    color: rgb(252, 33, 63);
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}

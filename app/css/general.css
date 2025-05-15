@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.hidden{
+    display: none !important;
+}
