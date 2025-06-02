@@ -98,14 +98,14 @@ async function uploadFile() {
             let incompleteRecords = localStorage.getItem("incRecordData");
             incompleteRecords = incompleteRecords ? JSON.parse(incompleteRecords) : [];
 
-            const payrollBtn = document.querySelector(`.sidebar-button[data-page="payrollReport"]`);
+            // const payrollBtn = document.querySelector(`.sidebar-button[data-page="payrollReport"]`);
 
-            let calculatedData = JSON.parse(localStorage.getItem("calculatedPayrollData"))
-            if (calculatedData) {
-                payrollBtn.removeAttribute("disabled");
-            } else {
-                payrollBtn.setAttribute("disabled", "true");
-            }
+            // let calculatedData = JSON.parse(localStorage.getItem("calculatedPayrollData"))
+            // if (calculatedData) {
+            //     payrollBtn.removeAttribute("disabled");
+            // } else {
+            //     payrollBtn.setAttribute("disabled", "true");
+            // }
 
             if (incompleteRecords.length > 0) {
                 incRecordButton.classList.remove("hidden");

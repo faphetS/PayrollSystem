@@ -167,7 +167,7 @@ if (!isset($_SESSION['user_id'])) {
                 </div>
                  <!-- Supervisors -->
                 <div class="section supervisor-section">
-                    <h3>Supervisors:</h3>
+                    <h3>Supervisors / TL:</h3>
 
                     <div class="supervisor-wrapper">
                         <div class="entry-group supervisor-inputs">
@@ -180,7 +180,7 @@ if (!isset($_SESSION['user_id'])) {
 
                     <button type="button" class="add-btn" id="add-supervisor-btn">
                         <i class="fa-solid fa-plus"></i>
-                        Add Supervisor
+                        Add Employee
                     </button>
                 </div>
                 <!-- Overtime -->

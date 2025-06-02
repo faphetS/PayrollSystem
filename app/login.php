@@ -6,7 +6,7 @@ $db   = 'payrolldb';
 $user = 'root';
 $pass = '';
 
-$error = ""; // To hold the error message
+$error = "";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
